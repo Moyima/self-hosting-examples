@@ -96,7 +96,7 @@ services:
 networks:
   frontend:
     name: ${REVERSE_PROXY_NETWORK}
-    external: true
+    external: false
   internal:
 volumes:
   database-storage:
